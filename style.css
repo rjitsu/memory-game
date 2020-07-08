@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height:100%;
+    width:100%;
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+button{
+    position: absolute;
+    top:80%;
+    left:47%;
+}
