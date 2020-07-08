@@ -24,6 +24,9 @@ body{
     height: 300px;
     width: 400px;
 }
+h1{
+    background-color: #fc0;
+}
 button{
     position: absolute;
     top:80%;
